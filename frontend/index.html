@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RailChart — Know When to Book Your Current Ticket</title>
+  <meta name="description" content="Find out exactly when Indian Railways prepares the first reservation chart for your train, so you can be first in line for Current Booking tickets at station counters." />
+  <meta property="og:title" content="RailChart — IRCTC Chart Window Predictor" />
+  <meta property="og:description" content="Estimate when Current Booking opens for your Indian train journey." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated background particles -->
+  <div class="bg-overlay" aria-hidden="true">
+    <div class="particle" style="--x:10%;--y:20%;--s:4px;--d:8s"></div>
+    <div class="particle" style="--x:80%;--y:15%;--s:3px;--d:12s"></div>
+    <div class="particle" style="--x:25%;--y:70%;--s:5px;--d:10s"></div>
+    <div class="particle" style="--x:65%;--y:80%;--s:3px;--d:7s"></div>
+    <div class="particle" style="--x:90%;--y:45%;--s:4px;--d:15s"></div>
+    <div class="particle" style="--x:40%;--y:30%;--s:2px;--d:9s"></div>
+    <div class="particle" style="--x:55%;--y:60%;--s:6px;--d:11s"></div>
+    <div class="train-track" aria-hidden="true"></div>
+  </div>
+
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="header-content">
+        <div class="logo-group">
+          <span class="logo-icon" aria-hidden="true">🚂</span>
+          <div class="logo-text">
+            <span class="logo-name">RailChart</span>
+            <span class="logo-tagline">IRCTC Chart Window Predictor</span>
+          </div>
+        </div>
+        <button
+          id="theme-toggle"
+          class="theme-btn"
+          aria-label="Toggle dark/light mode"
+          title="Toggle theme"
+        >
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content" role="main">
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" class="hero-title">
+          Know <span class="highlight">exactly</span> when to grab your
+          <span class="highlight">Current Booking</span> ticket
+        </h1>
+        <p class="hero-subtitle">
+          Enter your train number and journey date. We'll tell you when the first 
+          reservation chart is expected — so you know when vacant seats become 
+          bookable at the station counter.
+        </p>
+      </section>
+
+      <!-- Input Card -->
+      <section class="card input-card" aria-labelledby="form-heading">
+        <h2 id="form-heading" class="card-title">
+          <span class="card-title-icon" aria-hidden="true">🔍</span>
+          Predict Chart Window
+        </h2>
+
+        <form id="chart-form" novalidate aria-label="Chart window prediction form">
+          <div class="form-grid">
+            <!-- Train Number with autocomplete -->
+            <div class="form-group" id="train-group">
+              <label for="train-number" class="form-label">Train Number</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="train-number"
+                  name="train_number"
+                  class="form-input"
+                  placeholder="e.g. 12617"
+                  autocomplete="off"
+                  maxlength="6"
+                  pattern="[0-9]{4,6}"
+                  aria-required="true"
+                  aria-describedby="train-help"
+                />
+                <span class="input-icon" aria-hidden="true">🚆</span>
+                <div id="autocomplete-dropdown" class="autocomplete-dropdown" role="listbox" aria-label="Train suggestions" hidden></div>
+              </div>
+              <div id="train-help" class="form-help" aria-live="polite"></div>
+            </div>
+
+            <!-- Journey Date -->
+            <div class="form-group">
+              <label for="journey-date" class="form-label">Journey Date</label>
+              <div class="input-wrapper">
+                <input
+                  type="date"
+                  id="journey-date"
+                  name="journey_date"
+                  class="form-input"
+                  aria-required="true"
+                />
+                <span class="input-icon" aria-hidden="true">📅</span>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" id="predict-btn" class="predict-btn" aria-label="Predict chart window">
+            <span class="btn-content">
+              <span class="btn-icon" aria-hidden="true">⚡</span>
+              <span class="btn-text">Predict Chart Window</span>
+            </span>
+            <span class="btn-loader" aria-hidden="true" hidden>
+              <span class="spinner"></span>
+              Analyzing...
+            </span>
+          </button>
+        </form>
+
+        <!-- Error state -->
+        <div id="error-msg" class="error-banner" role="alert" hidden>
+          <span class="error-icon" aria-hidden="true">⚠️</span>
+          <span id="error-text"></span>
+        </div>
+      </section>
+
+      <!-- Result Card (hidden until result) -->
+      <section id="result-section" class="result-section" aria-live="polite" aria-label="Chart prediction result" hidden>
+        <div class="card result-card">
+          <!-- Train header -->
+          <div class="result-header">
+            <div class="result-train-info">
+              <span class="result-train-number" id="res-train-num"></span>
+              <span class="result-train-name" id="res-train-name"></span>
+            </div>
+            <div class="result-meta">
+              <span class="result-date" id="res-date"></span>
+              <span class="result-origin" id="res-origin"></span>
+            </div>
+            <button id="copy-btn" class="copy-btn" aria-label="Copy chart time to clipboard" title="Copy to clipboard">
+              <span id="copy-icon" aria-hidden="true">📋</span>
+            </button>
+          </div>
+
+          <div class="result-divider" aria-hidden="true"></div>
+
+          <!-- Main result: Chart window -->
+          <div class="result-main">
+            <div class="result-block chart-window-block">
+              <div class="result-label">
+                <span class="result-label-icon" aria-hidden="true">⏰</span>
+                First Chart Expected
+              </div>
+              <div class="result-value" id="res-chart-window"></div>
+              <div class="result-subvalue" id="res-chart-date"></div>
+            </div>
+
+            <div class="result-block current-booking-block">
+              <div class="result-label">
+                <span class="result-label-icon" aria-hidden="true">🎟️</span>
+                Current Booking Opens Around
+              </div>
+              <div class="result-value booking-value" id="res-booking-opens"></div>
+            </div>
+          </div>
+
+          <!-- Countdown -->
+          <div class="countdown-container" id="countdown-container">
+            <div class="countdown-label">
+              <span aria-hidden="true">⏳</span>
+              Time Until Chart
+            </div>
+            <div class="countdown-timer" id="countdown-timer" aria-live="polite" aria-label="Countdown to chart preparation">
+              <div class="countdown-segment">
+                <span class="countdown-num" id="cd-hours">--</span>
+                <span class="countdown-unit">hrs</span>
+              </div>
+              <div class="countdown-sep" aria-hidden="true">:</div>
+              <div class="countdown-segment">
+                <span class="countdown-num" id="cd-mins">--</span>
+                <span class="countdown-unit">min</span>
+              </div>
+              <div class="countdown-sep" aria-hidden="true">:</div>
+              <div class="countdown-segment">
+                <span class="countdown-num" id="cd-secs">--</span>
+                <span class="countdown-unit">sec</span>
+              </div>
+            </div>
+            <div class="chart-past-msg" id="chart-past-msg" hidden>
+              Chart likely already prepared. Check station counter now!
+            </div>
+          </div>
+
+          <!-- Confidence -->
+          <div class="confidence-container">
+            <div class="confidence-header">
+              <span class="confidence-label">Confidence</span>
+              <span class="confidence-value" id="res-confidence"></span>
+            </div>
+            <div class="confidence-bar-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Prediction confidence">
+              <div class="confidence-bar-fill" id="confidence-fill"></div>
+            </div>
+            <div class="method-badge" id="res-method">
+              <span id="method-icon" aria-hidden="true">📐</span>
+              <span id="method-text"></span>
+            </div>
+          </div>
+
+          <!-- Rule explanation -->
+          <div class="rule-explanation" id="rule-section">
+            <div class="rule-title">
+              <span aria-hidden="true">📋</span>
+              Rule Applied
+            </div>
+            <div class="rule-text" id="res-rule"></div>
+            <div class="notes-text" id="res-notes"></div>
+          </div>
+
+          <!-- Disclaimer -->
+          <div class="disclaimer" role="note">
+            <span class="disclaimer-icon" aria-hidden="true">⚠️</span>
+            <span id="res-disclaimer"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="how-it-works" aria-labelledby="how-heading">
+        <h2 id="how-heading" class="section-title">How It Works</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">1</div>
+            <div class="step-icon" aria-hidden="true">🔢</div>
+            <h3 class="step-title">Enter Train Number</h3>
+            <p class="step-desc">Type your train number and we'll find the origin departure time from our timetable database.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">2</div>
+            <div class="step-icon" aria-hidden="true">📐</div>
+            <h3 class="step-title">Apply IRCTC Rules</h3>
+            <p class="step-desc">We apply the official Railway Board charting rules (2025-26) based on the departure time window.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">3</div>
+            <div class="step-icon" aria-hidden="true">🎟️</div>
+            <h3 class="step-title">Rush to Counter</h3>
+            <p class="step-desc">Arrive at the station counter around the chart time. Vacated berths become available for Current Booking immediately.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info section -->
+      <section class="info-section" aria-labelledby="rules-heading">
+        <h2 id="rules-heading" class="section-title">Charting Rules (2025-26)</h2>
+        <div class="rules-table-wrapper" role="region" aria-label="IRCTC charting rules table">
+          <table class="rules-table">
+            <thead>
+              <tr>
+                <th scope="col">Departure Window</th>
+                <th scope="col">First Chart Prepared At</th>
+                <th scope="col">Current Booking Opens</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="time-badge">5:00 AM – 2:00 PM</span></td>
+                <td><strong>8:00 PM previous night</strong></td>
+                <td>~8:00 PM prev. night</td>
+              </tr>
+              <tr>
+                <td><span class="time-badge">2:01 PM – 11:59 PM</span></td>
+                <td><strong>~10 hours before departure</strong></td>
+                <td>~10 hrs before</td>
+              </tr>
+              <tr>
+                <td><span class="time-badge">12:00 AM – 4:59 AM</span></td>
+                <td><strong>~10 hours before</strong> (prev. afternoon/evening)</td>
+                <td>~10 hrs before</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">
+          * A <strong>final chart</strong> is released ~30 minutes before departure for last-minute changes. 
+          A <em>current booking</em> window may open again then.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer-content">
+        <p class="footer-text">
+          RailChart is an independent tool and is <strong>not affiliated</strong> with IRCTC or Indian Railways.
+          All estimates are based on publicly available charting rules. Always verify at the station counter.
+        </p>
+        <p class="footer-links">
+          Built with ❤️ for Indian rail passengers &nbsp;·&nbsp; Data: IRCTC Railway Board Directives 2025-26
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

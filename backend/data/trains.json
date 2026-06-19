@@ -1,0 +1,2207 @@
+[
+  {
+    "train_number": "12001",
+    "train_name": "BHOPAL SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12002",
+    "train_name": "BHOPAL SHATABDI",
+    "origin_station_code": "BPL",
+    "origin_station_name": "Bhopal Jn",
+    "departure_time": "15:15"
+  },
+  {
+    "train_number": "12003",
+    "train_name": "LUCKNOW SWRN SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12004",
+    "train_name": "LUCKNOW SWRN SHATABDI",
+    "origin_station_code": "LKO",
+    "origin_station_name": "Lucknow",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "12005",
+    "train_name": "KALKA SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "07:40"
+  },
+  {
+    "train_number": "12006",
+    "train_name": "KALKA SHATABDI",
+    "origin_station_code": "KLK",
+    "origin_station_name": "Kalka",
+    "departure_time": "17:40"
+  },
+  {
+    "train_number": "12007",
+    "train_name": "MAS MYS SHATABDI EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12008",
+    "train_name": "MYS MAS SHATABDI EXP",
+    "origin_station_code": "MYS",
+    "origin_station_name": "Mysuru Jn",
+    "departure_time": "14:15"
+  },
+  {
+    "train_number": "12009",
+    "train_name": "MUMBAI SHATABDI",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "06:25"
+  },
+  {
+    "train_number": "12010",
+    "train_name": "MUMBAI SHATABDI",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "14:35"
+  },
+  {
+    "train_number": "12011",
+    "train_name": "KALKA SHATABDI",
+    "origin_station_code": "CDG",
+    "origin_station_name": "Chandigarh",
+    "departure_time": "17:00"
+  },
+  {
+    "train_number": "12013",
+    "train_name": "AMRITSAR SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:00"
+  },
+  {
+    "train_number": "12014",
+    "train_name": "AMRITSAR SHATABDI",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Amritsar Jn",
+    "departure_time": "05:55"
+  },
+  {
+    "train_number": "12015",
+    "train_name": "AJMER SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:05"
+  },
+  {
+    "train_number": "12017",
+    "train_name": "DEHRADUN SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:45"
+  },
+  {
+    "train_number": "12018",
+    "train_name": "DEHRADUN SHATABDI",
+    "origin_station_code": "DDN",
+    "origin_station_name": "Dehradun",
+    "departure_time": "17:15"
+  },
+  {
+    "train_number": "12019",
+    "train_name": "HOWRAH RAJDHANI",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "16:55"
+  },
+  {
+    "train_number": "12020",
+    "train_name": "HOWRAH RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:30"
+  },
+  {
+    "train_number": "12023",
+    "train_name": "LUCKNOW JANBHUMI EXP",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:05"
+  },
+  {
+    "train_number": "12025",
+    "train_name": "PUNE SHATABDI",
+    "origin_station_code": "PUNE",
+    "origin_station_name": "Pune Jn",
+    "departure_time": "06:15"
+  },
+  {
+    "train_number": "12027",
+    "train_name": "MAS SBC SHATABDI EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "17:30"
+  },
+  {
+    "train_number": "12028",
+    "train_name": "SBC MAS SHATABDI EXP",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12037",
+    "train_name": "BANGALORE SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12039",
+    "train_name": "KATHGODAM SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:15"
+  },
+  {
+    "train_number": "12041",
+    "train_name": "BHOPAL JANSHATABDI",
+    "origin_station_code": "HBJ",
+    "origin_station_name": "Habibganj",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12051",
+    "train_name": "JAN SHATABDI EXPRESS",
+    "origin_station_code": "DR",
+    "origin_station_name": "Dadar",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12073",
+    "train_name": "HOWRAH JAN SHATABDI",
+    "origin_station_code": "SRC",
+    "origin_station_name": "Santragachi",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12101",
+    "train_name": "JNANESWARI SUPER DELUXE",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "23:00"
+  },
+  {
+    "train_number": "12165",
+    "train_name": "LTT RATNAGIRI EXP",
+    "origin_station_code": "LTT",
+    "origin_station_name": "Lokmanya Tilak Terminus",
+    "departure_time": "11:05"
+  },
+  {
+    "train_number": "12217",
+    "train_name": "KERALA EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "11:00"
+  },
+  {
+    "train_number": "12218",
+    "train_name": "KERALA EXPRESS",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram",
+    "departure_time": "11:15"
+  },
+  {
+    "train_number": "12245",
+    "train_name": "DLI HOWRAH DURONTO",
+    "origin_station_code": "DLI",
+    "origin_station_name": "Old Delhi Jn",
+    "departure_time": "12:35"
+  },
+  {
+    "train_number": "12246",
+    "train_name": "HWH DLI DURONTO",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "08:00"
+  },
+  {
+    "train_number": "12249",
+    "train_name": "ANAND VIHAR HOWRAH YUVA",
+    "origin_station_code": "ANVT",
+    "origin_station_name": "Anand Vihar Terminus",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "12253",
+    "train_name": "ANGA EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:40"
+  },
+  {
+    "train_number": "12259",
+    "train_name": "SEALDAH RAJDHANI",
+    "origin_station_code": "SDAH",
+    "origin_station_name": "Sealdah",
+    "departure_time": "14:05"
+  },
+  {
+    "train_number": "12260",
+    "train_name": "SEALDAH RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:10"
+  },
+  {
+    "train_number": "12263",
+    "train_name": "PUNE DURONTO",
+    "origin_station_code": "PUNE",
+    "origin_station_name": "Pune Jn",
+    "departure_time": "19:10"
+  },
+  {
+    "train_number": "12264",
+    "train_name": "PUNE DURONTO",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "22:30"
+  },
+  {
+    "train_number": "12269",
+    "train_name": "CHENNAI DURONTO",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:30"
+  },
+  {
+    "train_number": "12270",
+    "train_name": "CHENNAI DURONTO",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12273",
+    "train_name": "HOWRAH DURONTO",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "12:55"
+  },
+  {
+    "train_number": "12285",
+    "train_name": "NZM SECUNDERABAD DURONTO",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "15:30"
+  },
+  {
+    "train_number": "12286",
+    "train_name": "SC NZM DURONTO",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "17:30"
+  },
+  {
+    "train_number": "12295",
+    "train_name": "SANGHAMITRA EXPRESS",
+    "origin_station_code": "SMVB",
+    "origin_station_name": "SMVT Bengaluru",
+    "departure_time": "09:15"
+  },
+  {
+    "train_number": "12296",
+    "train_name": "SANGHAMITRA EXPRESS",
+    "origin_station_code": "DNR",
+    "origin_station_name": "Danapur",
+    "departure_time": "20:15"
+  },
+  {
+    "train_number": "12301",
+    "train_name": "HOWRAH RAJDHANI",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "13:55"
+  },
+  {
+    "train_number": "12302",
+    "train_name": "HOWRAH RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:55"
+  },
+  {
+    "train_number": "12303",
+    "train_name": "POORVA EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "08:05"
+  },
+  {
+    "train_number": "12305",
+    "train_name": "RAJDHANI EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:05"
+  },
+  {
+    "train_number": "12306",
+    "train_name": "RAJDHANI EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:25"
+  },
+  {
+    "train_number": "12307",
+    "train_name": "JODHPUR EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "23:59"
+  },
+  {
+    "train_number": "12309",
+    "train_name": "RAJDHANI EXPRESS",
+    "origin_station_code": "RJPB",
+    "origin_station_name": "Rajendra Nagar Patna",
+    "departure_time": "18:30"
+  },
+  {
+    "train_number": "12311",
+    "train_name": "KALKA MAIL",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "19:40"
+  },
+  {
+    "train_number": "12313",
+    "train_name": "SEALDAH RAJDHANI",
+    "origin_station_code": "SDAH",
+    "origin_station_name": "Sealdah",
+    "departure_time": "16:35"
+  },
+  {
+    "train_number": "12315",
+    "train_name": "SDAH AJMER EXPRESS",
+    "origin_station_code": "SDAH",
+    "origin_station_name": "Sealdah",
+    "departure_time": "23:50"
+  },
+  {
+    "train_number": "12317",
+    "train_name": "AKAL TAKHT EXPRESS",
+    "origin_station_code": "KOLKATA",
+    "origin_station_name": "Kolkata",
+    "departure_time": "15:10"
+  },
+  {
+    "train_number": "12321",
+    "train_name": "MUMBAI MAIL",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "12331",
+    "train_name": "HIMGIRI EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "23:55"
+  },
+  {
+    "train_number": "12339",
+    "train_name": "COALFIELD EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "09:00"
+  },
+  {
+    "train_number": "12345",
+    "train_name": "SARAIGHAT EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "15:50"
+  },
+  {
+    "train_number": "12381",
+    "train_name": "POORABHA EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "23:10"
+  },
+  {
+    "train_number": "12391",
+    "train_name": "SHRAMJIVI EXPRESS",
+    "origin_station_code": "RJPB",
+    "origin_station_name": "Rajendra Nagar Patna",
+    "departure_time": "05:35"
+  },
+  {
+    "train_number": "12393",
+    "train_name": "SAMPOORNAKRANTI EXP",
+    "origin_station_code": "RJPB",
+    "origin_station_name": "Rajendra Nagar Patna",
+    "departure_time": "19:35"
+  },
+  {
+    "train_number": "12397",
+    "train_name": "MAHABODHI EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "15:55"
+  },
+  {
+    "train_number": "12401",
+    "train_name": "MAGADH EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:25"
+  },
+  {
+    "train_number": "12402",
+    "train_name": "MAGADH EXPRESS",
+    "origin_station_code": "PNBE",
+    "origin_station_name": "Patna Jn",
+    "departure_time": "05:05"
+  },
+  {
+    "train_number": "12421",
+    "train_name": "NED ALLAHABAD EXPRESS",
+    "origin_station_code": "NED",
+    "origin_station_name": "Nanded",
+    "departure_time": "08:30"
+  },
+  {
+    "train_number": "12423",
+    "train_name": "DIBRUGARH RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "21:30"
+  },
+  {
+    "train_number": "12424",
+    "train_name": "DIBRUGARH RAJDHANI",
+    "origin_station_code": "DBRG",
+    "origin_station_name": "Dibrugarh",
+    "departure_time": "15:30"
+  },
+  {
+    "train_number": "12425",
+    "train_name": "NEW DELHI JAMMU RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:30"
+  },
+  {
+    "train_number": "12426",
+    "train_name": "JAMMU RAJDHANI",
+    "origin_station_code": "JAT",
+    "origin_station_name": "Jammu Tawi",
+    "departure_time": "07:30"
+  },
+  {
+    "train_number": "12431",
+    "train_name": "THIRUVANANTHAPURAM RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "10:55"
+  },
+  {
+    "train_number": "12432",
+    "train_name": "THIRUVANANTHAPURAM RAJDHANI",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram",
+    "departure_time": "15:30"
+  },
+  {
+    "train_number": "12433",
+    "train_name": "CHENNAI RAJDHANI",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "06:05"
+  },
+  {
+    "train_number": "12434",
+    "train_name": "CHENNAI RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "15:55"
+  },
+  {
+    "train_number": "12435",
+    "train_name": "DIBRUGARH RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:10"
+  },
+  {
+    "train_number": "12441",
+    "train_name": "BILASPUR RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:35"
+  },
+  {
+    "train_number": "12442",
+    "train_name": "BILASPUR RAJDHANI",
+    "origin_station_code": "BSP",
+    "origin_station_name": "Bilaspur Jn",
+    "departure_time": "18:35"
+  },
+  {
+    "train_number": "12451",
+    "train_name": "SHRAM SHAKTI EXPRESS",
+    "origin_station_code": "CNBG",
+    "origin_station_name": "Kanpur Bridge",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "12461",
+    "train_name": "MANDORE EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "22:15"
+  },
+  {
+    "train_number": "12462",
+    "train_name": "MANDORE EXPRESS",
+    "origin_station_code": "JU",
+    "origin_station_name": "Jodhpur Jn",
+    "departure_time": "05:45"
+  },
+  {
+    "train_number": "12469",
+    "train_name": "INTERCITY EXPRESS",
+    "origin_station_code": "DEE",
+    "origin_station_name": "Delhi Sarai Rohilla",
+    "departure_time": "06:05"
+  },
+  {
+    "train_number": "12471",
+    "train_name": "SWARAJ EXPRESS",
+    "origin_station_code": "INDB",
+    "origin_station_name": "Indore Jn",
+    "departure_time": "17:30"
+  },
+  {
+    "train_number": "12473",
+    "train_name": "SARVODAYA EXPRESS",
+    "origin_station_code": "JAT",
+    "origin_station_name": "Jammu Tawi",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12479",
+    "train_name": "SURYANAGARI EXPRESS",
+    "origin_station_code": "BGKT",
+    "origin_station_name": "Bhagat Ki Kothi",
+    "departure_time": "13:00"
+  },
+  {
+    "train_number": "12481",
+    "train_name": "INTERCITY SF EXPRESS",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Amritsar Jn",
+    "departure_time": "08:35"
+  },
+  {
+    "train_number": "12483",
+    "train_name": "AMRITSAR EXPRESS",
+    "origin_station_code": "KGM",
+    "origin_station_name": "Kathgodam",
+    "departure_time": "21:50"
+  },
+  {
+    "train_number": "12489",
+    "train_name": "BIKANER SF EXPRESS",
+    "origin_station_code": "BKN",
+    "origin_station_name": "Bikaner Jn",
+    "departure_time": "16:20"
+  },
+  {
+    "train_number": "12497",
+    "train_name": "SHANE PUNJAB EXP",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:30"
+  },
+  {
+    "train_number": "12498",
+    "train_name": "SHANE PUNJAB EXP",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Amritsar Jn",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12501",
+    "train_name": "PURVOTTAR SAMPARK KRANT",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:30"
+  },
+  {
+    "train_number": "12505",
+    "train_name": "NORTH EAST EXPRESS",
+    "origin_station_code": "ANVT",
+    "origin_station_name": "Anand Vihar Terminus",
+    "departure_time": "19:15"
+  },
+  {
+    "train_number": "12506",
+    "train_name": "NORTH EAST EXPRESS",
+    "origin_station_code": "KGTE",
+    "origin_station_name": "Kamakhya",
+    "departure_time": "04:45"
+  },
+  {
+    "train_number": "12521",
+    "train_name": "RAPTI SAGAR EXPRESS",
+    "origin_station_code": "ANVT",
+    "origin_station_name": "Anand Vihar Terminus",
+    "departure_time": "23:30"
+  },
+  {
+    "train_number": "12523",
+    "train_name": "NJP NDLS EXPRESS",
+    "origin_station_code": "NJP",
+    "origin_station_name": "New Jalpaiguri",
+    "departure_time": "15:55"
+  },
+  {
+    "train_number": "12527",
+    "train_name": "LUCKNOW EXPRESS",
+    "origin_station_code": "ANVT",
+    "origin_station_name": "Anand Vihar Terminus",
+    "departure_time": "23:00"
+  },
+  {
+    "train_number": "12531",
+    "train_name": "INTERCITY EXPRESS",
+    "origin_station_code": "LJN",
+    "origin_station_name": "Lucknow NR",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12533",
+    "train_name": "PUSHPAK EXPRESS",
+    "origin_station_code": "LKO",
+    "origin_station_name": "Lucknow",
+    "departure_time": "21:30"
+  },
+  {
+    "train_number": "12542",
+    "train_name": "SAINT KABIRDHAM EXP",
+    "origin_station_code": "GKP",
+    "origin_station_name": "Gorakhpur Jn",
+    "departure_time": "22:50"
+  },
+  {
+    "train_number": "12553",
+    "train_name": "VAISHALI EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "12:50"
+  },
+  {
+    "train_number": "12559",
+    "train_name": "SHIV GANGA EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "18:40"
+  },
+  {
+    "train_number": "12560",
+    "train_name": "SHIV GANGA EXPRESS",
+    "origin_station_code": "BSB",
+    "origin_station_name": "Varanasi Jn",
+    "departure_time": "07:00"
+  },
+  {
+    "train_number": "12561",
+    "train_name": "SWATANTRTA SENANI SF EXP",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:55"
+  },
+  {
+    "train_number": "12581",
+    "train_name": "MANDUADIH EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "14:30"
+  },
+  {
+    "train_number": "12589",
+    "train_name": "GORAKHPUR EXPRESS",
+    "origin_station_code": "GKP",
+    "origin_station_name": "Gorakhpur Jn",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "12591",
+    "train_name": "GORAKHPUR EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "21:15"
+  },
+  {
+    "train_number": "12601",
+    "train_name": "MANGALURU MAIL",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "20:10"
+  },
+  {
+    "train_number": "12602",
+    "train_name": "MANGALURU MAIL",
+    "origin_station_code": "MAQ",
+    "origin_station_name": "Mangaluru Central",
+    "departure_time": "13:55"
+  },
+  {
+    "train_number": "12603",
+    "train_name": "MAS CHZ SF EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "16:45"
+  },
+  {
+    "train_number": "12604",
+    "train_name": "CHZ MAS SF EXPRESS",
+    "origin_station_code": "CHZ",
+    "origin_station_name": "Charlapalli",
+    "departure_time": "17:25"
+  },
+  {
+    "train_number": "12607",
+    "train_name": "LALBAGH EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "15:30"
+  },
+  {
+    "train_number": "12608",
+    "train_name": "LALBAGH EXPRESS",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "06:25"
+  },
+  {
+    "train_number": "12609",
+    "train_name": "MYSURU EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "13:35"
+  },
+  {
+    "train_number": "12610",
+    "train_name": "CHENNAI EXPRESS",
+    "origin_station_code": "MYS",
+    "origin_station_name": "Mysuru Jn",
+    "departure_time": "05:15"
+  },
+  {
+    "train_number": "12611",
+    "train_name": "MAS NZM GARIB RATH",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12612",
+    "train_name": "NZM MAS GARIB RATH",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "15:35"
+  },
+  {
+    "train_number": "12613",
+    "train_name": "WODEYAR EXPRESS",
+    "origin_station_code": "MYS",
+    "origin_station_name": "Mysuru Jn",
+    "departure_time": "11:30"
+  },
+  {
+    "train_number": "12614",
+    "train_name": "WODEYAR EXPRESS",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "15:15"
+  },
+  {
+    "train_number": "12615",
+    "train_name": "GRAND TRUNK EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "18:15"
+  },
+  {
+    "train_number": "12616",
+    "train_name": "GRAND TRUNK EXP",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:10"
+  },
+  {
+    "train_number": "12617",
+    "train_name": "MANGALA LAKSHADWEEP",
+    "origin_station_code": "ERS",
+    "origin_station_name": "Ernakulam Jn",
+    "departure_time": "13:25"
+  },
+  {
+    "train_number": "12618",
+    "train_name": "MANGALA LAKSHADWEEP",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "05:35"
+  },
+  {
+    "train_number": "12619",
+    "train_name": "MATSYAGANDHA EXPRESS",
+    "origin_station_code": "LTT",
+    "origin_station_name": "Lokmanya Tilak Terminus",
+    "departure_time": "10:25"
+  },
+  {
+    "train_number": "12621",
+    "train_name": "TAMIL NADU EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "12622",
+    "train_name": "TAMIL NADU EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "21:05"
+  },
+  {
+    "train_number": "12623",
+    "train_name": "THIRUVANANTHAPURAM MAIL",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "19:30"
+  },
+  {
+    "train_number": "12624",
+    "train_name": "THIRUVANANTHAPURAM MAIL",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram Central",
+    "departure_time": "15:00"
+  },
+  {
+    "train_number": "12625",
+    "train_name": "KERALA EXPRESS",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram Central",
+    "departure_time": "12:15"
+  },
+  {
+    "train_number": "12626",
+    "train_name": "KERALA EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:10"
+  },
+  {
+    "train_number": "12627",
+    "train_name": "KARNATAKA EXP",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "19:20"
+  },
+  {
+    "train_number": "12628",
+    "train_name": "KARNATAKA EXP",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:20"
+  },
+  {
+    "train_number": "12629",
+    "train_name": "WEST COAST EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "07:40"
+  },
+  {
+    "train_number": "12631",
+    "train_name": "NELLAI EXPRESS",
+    "origin_station_code": "MS",
+    "origin_station_name": "Chennai Egmore",
+    "departure_time": "20:50"
+  },
+  {
+    "train_number": "12632",
+    "train_name": "NELLAI EXPRESS",
+    "origin_station_code": "TEN",
+    "origin_station_name": "Tirunelveli Jn",
+    "departure_time": "20:50"
+  },
+  {
+    "train_number": "12633",
+    "train_name": "KANYAKUMARI EXPRESS",
+    "origin_station_code": "MS",
+    "origin_station_name": "Chennai Egmore",
+    "departure_time": "17:20"
+  },
+  {
+    "train_number": "12634",
+    "train_name": "KANYAKUMARI EXPRESS",
+    "origin_station_code": "CAPE",
+    "origin_station_name": "Kanyakumari",
+    "departure_time": "18:00"
+  },
+  {
+    "train_number": "12639",
+    "train_name": "BRINDAVAN EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "07:40"
+  },
+  {
+    "train_number": "12640",
+    "train_name": "BRINDAVAN EXPRESS",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "15:15"
+  },
+  {
+    "train_number": "12641",
+    "train_name": "THIRUKKURAL EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "11:00"
+  },
+  {
+    "train_number": "12643",
+    "train_name": "NAGERCOIL EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "09:05"
+  },
+  {
+    "train_number": "12645",
+    "train_name": "MILLENNIUM EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "21:20"
+  },
+  {
+    "train_number": "12649",
+    "train_name": "SAMPARK KRANTI EXP",
+    "origin_station_code": "YPR",
+    "origin_station_name": "Yesvantpur Jn",
+    "departure_time": "21:30"
+  },
+  {
+    "train_number": "12653",
+    "train_name": "ROCK FORT EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "12655",
+    "train_name": "NAVJEEVAN SF EXPRESS",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "21:25"
+  },
+  {
+    "train_number": "12656",
+    "train_name": "NAVJEEVAN SF EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "10:10"
+  },
+  {
+    "train_number": "12657",
+    "train_name": "BENGALURU MAIL",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "22:50"
+  },
+  {
+    "train_number": "12658",
+    "train_name": "BENGALURU MAIL",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "22:40"
+  },
+  {
+    "train_number": "12671",
+    "train_name": "NILAGIRI EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "21:05"
+  },
+  {
+    "train_number": "12681",
+    "train_name": "COIMBATORE INTERCITY",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12682",
+    "train_name": "COIMBATORE INTERCITY",
+    "origin_station_code": "CBE",
+    "origin_station_name": "Coimbatore Jn",
+    "departure_time": "14:00"
+  },
+  {
+    "train_number": "12695",
+    "train_name": "MAS TVC SF EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "15:20"
+  },
+  {
+    "train_number": "12696",
+    "train_name": "TVC MAS SF EXP",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram Central",
+    "departure_time": "17:15"
+  },
+  {
+    "train_number": "12711",
+    "train_name": "PINAKINI SF EXP",
+    "origin_station_code": "BZA",
+    "origin_station_name": "Vijayawada Jn",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12712",
+    "train_name": "PINAKINI SF EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "14:05"
+  },
+  {
+    "train_number": "12713",
+    "train_name": "SATAVAHANA SF EXP",
+    "origin_station_code": "BZA",
+    "origin_station_name": "Vijayawada Jn",
+    "departure_time": "06:25"
+  },
+  {
+    "train_number": "12714",
+    "train_name": "SATAVAHANA SF EXP",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "16:25"
+  },
+  {
+    "train_number": "12721",
+    "train_name": "DAKSHIN EXPRESS",
+    "origin_station_code": "HYB",
+    "origin_station_name": "Hyderabad Deccan",
+    "departure_time": "23:00"
+  },
+  {
+    "train_number": "12722",
+    "train_name": "DAKSHIN EXPRESS",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "22:50"
+  },
+  {
+    "train_number": "12723",
+    "train_name": "TELANGANA EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12724",
+    "train_name": "TELANGANA EXPRESS",
+    "origin_station_code": "HYB",
+    "origin_station_name": "Hyderabad Deccan",
+    "departure_time": "06:25"
+  },
+  {
+    "train_number": "12731",
+    "train_name": "TIRUPATI EXPRESS",
+    "origin_station_code": "HYB",
+    "origin_station_name": "Hyderabad Deccan",
+    "departure_time": "20:15"
+  },
+  {
+    "train_number": "12743",
+    "train_name": "VIKRAMASIMHAPURI EXP",
+    "origin_station_code": "GDR",
+    "origin_station_name": "Gudur Jn",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "12744",
+    "train_name": "VIKRAMASIMHAPURI EXP",
+    "origin_station_code": "BZA",
+    "origin_station_name": "Vijayawada Jn",
+    "departure_time": "18:00"
+  },
+  {
+    "train_number": "12759",
+    "train_name": "CHARMINAR EXPRESS",
+    "origin_station_code": "TBM",
+    "origin_station_name": "Tambaram",
+    "departure_time": "17:30"
+  },
+  {
+    "train_number": "12760",
+    "train_name": "CHARMINAR EXPRESS",
+    "origin_station_code": "HYB",
+    "origin_station_name": "Hyderabad Deccan",
+    "departure_time": "18:00"
+  },
+  {
+    "train_number": "12769",
+    "train_name": "STEEL EXPRESS",
+    "origin_station_code": "VSKP",
+    "origin_station_name": "Visakhapatnam",
+    "departure_time": "06:40"
+  },
+  {
+    "train_number": "12771",
+    "train_name": "SECUNDERABAD EXP",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "18:05"
+  },
+  {
+    "train_number": "12779",
+    "train_name": "GOWTHAMI EXPRESS",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "19:15"
+  },
+  {
+    "train_number": "12781",
+    "train_name": "SWARNA JAYANTHI EXP",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "06:40"
+  },
+  {
+    "train_number": "12785",
+    "train_name": "KACHEGUDA EXPRESS",
+    "origin_station_code": "KCG",
+    "origin_station_name": "Kacheguda",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "12791",
+    "train_name": "DNR SC EXPRESS",
+    "origin_station_code": "DNR",
+    "origin_station_name": "Danapur",
+    "departure_time": "18:30"
+  },
+  {
+    "train_number": "12801",
+    "train_name": "PURUSHOTTAM EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "22:10"
+  },
+  {
+    "train_number": "12802",
+    "train_name": "PURUSHOTTAM EXPRESS",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "07:25"
+  },
+  {
+    "train_number": "12815",
+    "train_name": "NANDAN KANAN EXP",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "12821",
+    "train_name": "DHAULI EXPRESS",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "06:50"
+  },
+  {
+    "train_number": "12833",
+    "train_name": "HOWRAH AHMEDABAD EXP",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "13:10"
+  },
+  {
+    "train_number": "12841",
+    "train_name": "COROMANDEL EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:25"
+  },
+  {
+    "train_number": "12842",
+    "train_name": "COROMANDEL EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "09:00"
+  },
+  {
+    "train_number": "12843",
+    "train_name": "PURI EXPRESS",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "04:30"
+  },
+  {
+    "train_number": "12859",
+    "train_name": "GITANJALI EXPRESS",
+    "origin_station_code": "CSTM",
+    "origin_station_name": "Mumbai CSMT",
+    "departure_time": "06:05"
+  },
+  {
+    "train_number": "12860",
+    "train_name": "GITANJALI EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:05"
+  },
+  {
+    "train_number": "12869",
+    "train_name": "HOWRAH MAS MAIL",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "23:50"
+  },
+  {
+    "train_number": "12875",
+    "train_name": "NEELACHAL EXPRESS",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12879",
+    "train_name": "LTT BHUBANESWAR EXP",
+    "origin_station_code": "LTT",
+    "origin_station_name": "Lokmanya Tilak Terminus",
+    "departure_time": "08:30"
+  },
+  {
+    "train_number": "12901",
+    "train_name": "GUJARAT MAIL",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "22:05"
+  },
+  {
+    "train_number": "12903",
+    "train_name": "GOLDEN TEMPLE MAIL",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "12904",
+    "train_name": "GOLDEN TEMPLE MAIL",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Amritsar Jn",
+    "departure_time": "09:25"
+  },
+  {
+    "train_number": "12909",
+    "train_name": "BDTS NZM SF EXPRESS",
+    "origin_station_code": "BDTS",
+    "origin_station_name": "Bandra Terminus",
+    "departure_time": "15:10"
+  },
+  {
+    "train_number": "12925",
+    "train_name": "PASCHIM EXPRESS",
+    "origin_station_code": "BVI",
+    "origin_station_name": "Borivali",
+    "departure_time": "22:40"
+  },
+  {
+    "train_number": "12926",
+    "train_name": "PASCHIM EXPRESS",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Amritsar Jn",
+    "departure_time": "17:25"
+  },
+  {
+    "train_number": "12951",
+    "train_name": "MUMBAI RAJDHANI",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "17:00"
+  },
+  {
+    "train_number": "12952",
+    "train_name": "MUMBAI RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:35"
+  },
+  {
+    "train_number": "12953",
+    "train_name": "AUGUST KRANTI RAJDHANI",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "17:40"
+  },
+  {
+    "train_number": "12955",
+    "train_name": "JAIPUR SF EXPRESS",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "18:30"
+  },
+  {
+    "train_number": "12957",
+    "train_name": "SWARNA JAYANTHI EXP",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "15:00"
+  },
+  {
+    "train_number": "12959",
+    "train_name": "DADAR BHAVNAGAR EXP",
+    "origin_station_code": "DR",
+    "origin_station_name": "Dadar",
+    "departure_time": "07:05"
+  },
+  {
+    "train_number": "12961",
+    "train_name": "AVANTIKA EXPRESS",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "19:50"
+  },
+  {
+    "train_number": "12963",
+    "train_name": "MEWAR EXPRESS",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "19:50"
+  },
+  {
+    "train_number": "12965",
+    "train_name": "UDAIPUR CITY EXPRESS",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "20:00"
+  },
+  {
+    "train_number": "12985",
+    "train_name": "DOUBLE DECKER EXPRESS",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "06:10"
+  },
+  {
+    "train_number": "12995",
+    "train_name": "BDTS AJMER SF EXPRESS",
+    "origin_station_code": "BDTS",
+    "origin_station_name": "Bandra Terminus",
+    "departure_time": "21:00"
+  },
+  {
+    "train_number": "13005",
+    "train_name": "AMRITSAR MAIL",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "19:30"
+  },
+  {
+    "train_number": "13007",
+    "train_name": "UDYAN ABHA TOOFAN EXP",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "00:05"
+  },
+  {
+    "train_number": "13009",
+    "train_name": "DOON EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "22:05"
+  },
+  {
+    "train_number": "13019",
+    "train_name": "BAGH EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "22:30"
+  },
+  {
+    "train_number": "13023",
+    "train_name": "GOA EXP VIA PUNE",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "13:00"
+  },
+  {
+    "train_number": "13031",
+    "train_name": "BHOPAL EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "14:40"
+  },
+  {
+    "train_number": "13049",
+    "train_name": "AMRITSAR EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "08:30"
+  },
+  {
+    "train_number": "13119",
+    "train_name": "ANADWIP EXPRESS",
+    "origin_station_code": "KOAA",
+    "origin_station_name": "Kolkata",
+    "departure_time": "08:10"
+  },
+  {
+    "train_number": "13133",
+    "train_name": "SDAH BSB EXPRESS",
+    "origin_station_code": "SDAH",
+    "origin_station_name": "Sealdah",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "13151",
+    "train_name": "JAMMU TAWI EXPRESS",
+    "origin_station_code": "KOAA",
+    "origin_station_name": "Kolkata",
+    "departure_time": "19:10"
+  },
+  {
+    "train_number": "13175",
+    "train_name": "KANCHANJUNGA EXPRESS",
+    "origin_station_code": "SDAH",
+    "origin_station_name": "Sealdah",
+    "departure_time": "07:00"
+  },
+  {
+    "train_number": "13281",
+    "train_name": "RAJENDRA NAGAR EXP",
+    "origin_station_code": "RJPB",
+    "origin_station_name": "Rajendra Nagar Patna",
+    "departure_time": "18:50"
+  },
+  {
+    "train_number": "13307",
+    "train_name": "GANGASUTLEJ EXPRESS",
+    "origin_station_code": "DHN",
+    "origin_station_name": "Dhanbad Jn",
+    "departure_time": "10:00"
+  },
+  {
+    "train_number": "13351",
+    "train_name": "DHN ALPP EXPRESS",
+    "origin_station_code": "DHN",
+    "origin_station_name": "Dhanbad Jn",
+    "departure_time": "13:30"
+  },
+  {
+    "train_number": "14207",
+    "train_name": "PADMAWAT EXPRESS",
+    "origin_station_code": "CNB",
+    "origin_station_name": "Kanpur Central",
+    "departure_time": "11:30"
+  },
+  {
+    "train_number": "14217",
+    "train_name": "UNCHAHAR EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:40"
+  },
+  {
+    "train_number": "14219",
+    "train_name": "BARSANA EXP",
+    "origin_station_code": "DLI",
+    "origin_station_name": "Old Delhi Jn",
+    "departure_time": "06:45"
+  },
+  {
+    "train_number": "14237",
+    "train_name": "BEGUMPUR EXPRESS",
+    "origin_station_code": "FD",
+    "origin_station_name": "Firozpur Cantt",
+    "departure_time": "22:50"
+  },
+  {
+    "train_number": "14317",
+    "train_name": "INDB DEE EXPRESS",
+    "origin_station_code": "INDB",
+    "origin_station_name": "Indore Jn",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "14321",
+    "train_name": "BARMER BAREILLY EXPRESS",
+    "origin_station_code": "BME",
+    "origin_station_name": "Barmer",
+    "departure_time": "12:30"
+  },
+  {
+    "train_number": "14511",
+    "train_name": "NAUCHANDI EXPRESS",
+    "origin_station_code": "ALJN",
+    "origin_station_name": "Aligarh Jn",
+    "departure_time": "04:30"
+  },
+  {
+    "train_number": "14521",
+    "train_name": "AMBALA DEHRADUN EXP",
+    "origin_station_code": "UMB",
+    "origin_station_name": "Ambala Cantt",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "14673",
+    "train_name": "SHAHEED EXPRESS",
+    "origin_station_code": "JAT",
+    "origin_station_name": "Jammu Tawi",
+    "departure_time": "07:35"
+  },
+  {
+    "train_number": "14681",
+    "train_name": "ADI JAT EXPRESS",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "12:00"
+  },
+  {
+    "train_number": "15001",
+    "train_name": "MUZAFFARPUR MAIL",
+    "origin_station_code": "LKO",
+    "origin_station_name": "Lucknow",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "15003",
+    "train_name": "CHAURI CHAURA EXPRESS",
+    "origin_station_code": "LJN",
+    "origin_station_name": "Lucknow NR",
+    "departure_time": "05:30"
+  },
+  {
+    "train_number": "15017",
+    "train_name": "GORAKHPUR EXP",
+    "origin_station_code": "LTT",
+    "origin_station_name": "Lokmanya Tilak Terminus",
+    "departure_time": "11:40"
+  },
+  {
+    "train_number": "15119",
+    "train_name": "MUZAFFARPUR EXPRESS",
+    "origin_station_code": "CSTM",
+    "origin_station_name": "Mumbai CSMT",
+    "departure_time": "14:20"
+  },
+  {
+    "train_number": "15631",
+    "train_name": "BR EXPRESS",
+    "origin_station_code": "GHY",
+    "origin_station_name": "Guwahati",
+    "departure_time": "18:30"
+  },
+  {
+    "train_number": "15657",
+    "train_name": "BRAHMAPUTRA MAIL",
+    "origin_station_code": "DBRG",
+    "origin_station_name": "Dibrugarh",
+    "departure_time": "09:30"
+  },
+  {
+    "train_number": "15658",
+    "train_name": "BRAHMAPUTRA MAIL",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:50"
+  },
+  {
+    "train_number": "15667",
+    "train_name": "KAMAKHYA GARIBRATH",
+    "origin_station_code": "KYQ",
+    "origin_station_name": "Kamakhya",
+    "departure_time": "17:30"
+  },
+  {
+    "train_number": "15901",
+    "train_name": "DIBRUGARH EXP",
+    "origin_station_code": "DBRG",
+    "origin_station_name": "Dibrugarh",
+    "departure_time": "13:00"
+  },
+  {
+    "train_number": "16031",
+    "train_name": "ANDAMAN EXPRESS",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "20:00"
+  },
+  {
+    "train_number": "16051",
+    "train_name": "MAS MANNARGUDI EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "10:00"
+  },
+  {
+    "train_number": "16101",
+    "train_name": "BOAT MAIL",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "21:30"
+  },
+  {
+    "train_number": "16127",
+    "train_name": "GURUVAYUR EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "10:25"
+  },
+  {
+    "train_number": "16315",
+    "train_name": "KOCHUVELI EXPRESS",
+    "origin_station_code": "KCE",
+    "origin_station_name": "Kochuveli",
+    "departure_time": "04:55"
+  },
+  {
+    "train_number": "16317",
+    "train_name": "HIMSAGAR EXPRESS",
+    "origin_station_code": "KCE",
+    "origin_station_name": "Kochuveli",
+    "departure_time": "11:55"
+  },
+  {
+    "train_number": "16318",
+    "train_name": "HIMSAGAR EXPRESS",
+    "origin_station_code": "JAT",
+    "origin_station_name": "Jammu Tawi",
+    "departure_time": "11:00"
+  },
+  {
+    "train_number": "16333",
+    "train_name": "VERAVAL EXPRESS",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram",
+    "departure_time": "18:00"
+  },
+  {
+    "train_number": "16381",
+    "train_name": "JAYANTI JANATA EXP",
+    "origin_station_code": "ERS",
+    "origin_station_name": "Ernakulam Jn",
+    "departure_time": "06:30"
+  },
+  {
+    "train_number": "16505",
+    "train_name": "KANNUR EXPRESS",
+    "origin_station_code": "YPR",
+    "origin_station_name": "Yesvantpur Jn",
+    "departure_time": "11:45"
+  },
+  {
+    "train_number": "16527",
+    "train_name": "KANNUR INTERCITY",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "08:00"
+  },
+  {
+    "train_number": "16591",
+    "train_name": "HAMPI EXPRESS",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "17005",
+    "train_name": "HYDERABAD INTERCITY EXP",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "06:20"
+  },
+  {
+    "train_number": "17201",
+    "train_name": "GOLCONDA EXPRESS",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "15:25"
+  },
+  {
+    "train_number": "17229",
+    "train_name": "SABARI EXPRESS",
+    "origin_station_code": "TVC",
+    "origin_station_name": "Thiruvananthapuram Central",
+    "departure_time": "06:45"
+  },
+  {
+    "train_number": "17230",
+    "train_name": "SABARI EXPRESS",
+    "origin_station_code": "SC",
+    "origin_station_name": "Secunderabad Jn",
+    "departure_time": "12:20"
+  },
+  {
+    "train_number": "17305",
+    "train_name": "PUNE KOCHUVELI EXP",
+    "origin_station_code": "PUNE",
+    "origin_station_name": "Pune Jn",
+    "departure_time": "21:30"
+  },
+  {
+    "train_number": "18001",
+    "train_name": "CAMMARATA EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "20:00"
+  },
+  {
+    "train_number": "18033",
+    "train_name": "AMARKANTAK EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "13:00"
+  },
+  {
+    "train_number": "18105",
+    "train_name": "ROURKELA TATANAGAR EXP",
+    "origin_station_code": "ROU",
+    "origin_station_name": "Rourkela",
+    "departure_time": "07:05"
+  },
+  {
+    "train_number": "18189",
+    "train_name": "ALLAHABAD EXPRESS",
+    "origin_station_code": "TATA",
+    "origin_station_name": "Tatanagar Jn",
+    "departure_time": "14:30"
+  },
+  {
+    "train_number": "18235",
+    "train_name": "BILASPUR EXP",
+    "origin_station_code": "BGKT",
+    "origin_station_name": "Bhagat Ki Kothi",
+    "departure_time": "20:05"
+  },
+  {
+    "train_number": "18237",
+    "train_name": "CHATTISGARH EXPRESS",
+    "origin_station_code": "AMLA",
+    "origin_station_name": "Amla Jn",
+    "departure_time": "09:25"
+  },
+  {
+    "train_number": "18407",
+    "train_name": "PURI ADI EXPRESS",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "13:00"
+  },
+  {
+    "train_number": "18451",
+    "train_name": "TAPASWINI EXPRESS",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "17:25"
+  },
+  {
+    "train_number": "18601",
+    "train_name": "RANCHI HATIA EXPRESS",
+    "origin_station_code": "RCHI",
+    "origin_station_name": "Ranchi",
+    "departure_time": "07:00"
+  },
+  {
+    "train_number": "19019",
+    "train_name": "SAURASHTRA MAIL",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "21:50"
+  },
+  {
+    "train_number": "19037",
+    "train_name": "AVADH EXPRESS",
+    "origin_station_code": "BDTS",
+    "origin_station_name": "Bandra Terminus",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "19039",
+    "train_name": "AVADH EXPRESS",
+    "origin_station_code": "BDTS",
+    "origin_station_name": "Bandra Terminus",
+    "departure_time": "18:20"
+  },
+  {
+    "train_number": "19101",
+    "train_name": "PORT BLAIR EXPRESS",
+    "origin_station_code": "DEE",
+    "origin_station_name": "Delhi Sarai Rohilla",
+    "departure_time": "15:25"
+  },
+  {
+    "train_number": "19301",
+    "train_name": "YASHWANTPUR EXPRESS",
+    "origin_station_code": "INDB",
+    "origin_station_name": "Indore Jn",
+    "departure_time": "16:50"
+  },
+  {
+    "train_number": "19305",
+    "train_name": "SAURASHTRA EXPRESS",
+    "origin_station_code": "INDB",
+    "origin_station_name": "Indore Jn",
+    "departure_time": "11:10"
+  },
+  {
+    "train_number": "19321",
+    "train_name": "INDB PURI EXPRESS",
+    "origin_station_code": "INDB",
+    "origin_station_name": "Indore Jn",
+    "departure_time": "23:30"
+  },
+  {
+    "train_number": "19405",
+    "train_name": "ADI SVDK EXPRESS",
+    "origin_station_code": "ADI",
+    "origin_station_name": "Ahmedabad Jn",
+    "departure_time": "12:20"
+  },
+  {
+    "train_number": "19601",
+    "train_name": "UDAIPUR CITY DEE EXP",
+    "origin_station_code": "UDZ",
+    "origin_station_name": "Udaipur City",
+    "departure_time": "08:30"
+  },
+  {
+    "train_number": "20409",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "20410",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "ASR",
+    "origin_station_name": "Varanasi Jn",
+    "departure_time": "15:00"
+  },
+  {
+    "train_number": "20501",
+    "train_name": "AGARTALA VANDE BHARAT",
+    "origin_station_code": "GHY",
+    "origin_station_name": "Guwahati",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "20677",
+    "train_name": "MAS NS VANDE BHARAT",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "05:30"
+  },
+  {
+    "train_number": "20678",
+    "train_name": "NS MAS VANDE BHARAT",
+    "origin_station_code": "NS",
+    "origin_station_name": "Narasapur",
+    "departure_time": "14:50"
+  },
+  {
+    "train_number": "20703",
+    "train_name": "KCG YPR VANDE BHARAT",
+    "origin_station_code": "KCG",
+    "origin_station_name": "Kacheguda",
+    "departure_time": "05:45"
+  },
+  {
+    "train_number": "20704",
+    "train_name": "YPR KCG VANDE BHARAT",
+    "origin_station_code": "YPR",
+    "origin_station_name": "Yesvantpur Jn",
+    "departure_time": "14:45"
+  },
+  {
+    "train_number": "20901",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "22119",
+    "train_name": "CSMT KARMALI TEJAS EXP",
+    "origin_station_code": "CSTM",
+    "origin_station_name": "Mumbai CSMT",
+    "departure_time": "05:25"
+  },
+  {
+    "train_number": "22120",
+    "train_name": "KARMALI CSMT TEJAS EXP",
+    "origin_station_code": "KRMI",
+    "origin_station_name": "Karmali",
+    "departure_time": "15:00"
+  },
+  {
+    "train_number": "22211",
+    "train_name": "MUMBAI DURONTO",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "11:05"
+  },
+  {
+    "train_number": "22212",
+    "train_name": "MUMBAI DURONTO",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:45"
+  },
+  {
+    "train_number": "22213",
+    "train_name": "BHOPAL SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "08:15"
+  },
+  {
+    "train_number": "22215",
+    "train_name": "HAZRAT NIZAMUDDIN DURONTO",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "16:30"
+  },
+  {
+    "train_number": "22221",
+    "train_name": "CSMT RAJDHANI",
+    "origin_station_code": "CSTM",
+    "origin_station_name": "Mumbai CSMT",
+    "departure_time": "16:25"
+  },
+  {
+    "train_number": "22222",
+    "train_name": "CSMT RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:05"
+  },
+  {
+    "train_number": "22301",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "22302",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "NJP",
+    "origin_station_name": "New Jalpaiguri",
+    "departure_time": "15:05"
+  },
+  {
+    "train_number": "22387",
+    "train_name": "BLACK DIAMOND EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "07:00"
+  },
+  {
+    "train_number": "22411",
+    "train_name": "NDLS KOCHUVELI ANTYODAYA",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:00"
+  },
+  {
+    "train_number": "22413",
+    "train_name": "GOAS ANTYODAYA EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "22:00"
+  },
+  {
+    "train_number": "22439",
+    "train_name": "NDLS SVDK VANDE BHARAT",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "22440",
+    "train_name": "SVDK NDLS VANDE BHARAT",
+    "origin_station_code": "SVK",
+    "origin_station_name": "Shri Mata Vaishno Devi Katra",
+    "departure_time": "15:00"
+  },
+  {
+    "train_number": "22451",
+    "train_name": "CHANDIGARH SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "07:20"
+  },
+  {
+    "train_number": "22453",
+    "train_name": "FIROZPUR RAJYA RANI EXP",
+    "origin_station_code": "FZR",
+    "origin_station_name": "Firozpur City",
+    "departure_time": "09:00"
+  },
+  {
+    "train_number": "22455",
+    "train_name": "KANPUR SHATABDI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:15"
+  },
+  {
+    "train_number": "22461",
+    "train_name": "DEE MATHURA INTERCITY",
+    "origin_station_code": "DEE",
+    "origin_station_name": "Delhi Sarai Rohilla",
+    "departure_time": "08:40"
+  },
+  {
+    "train_number": "22471",
+    "train_name": "HAZUR SAHIB NANDED EXP",
+    "origin_station_code": "DEE",
+    "origin_station_name": "Delhi Sarai Rohilla",
+    "departure_time": "18:15"
+  },
+  {
+    "train_number": "22481",
+    "train_name": "DEE BIKANER SF EXP",
+    "origin_station_code": "DEE",
+    "origin_station_name": "Delhi Sarai Rohilla",
+    "departure_time": "20:45"
+  },
+  {
+    "train_number": "22491",
+    "train_name": "CSMT DEHRADUN SF EXPRESS",
+    "origin_station_code": "CSTM",
+    "origin_station_name": "Mumbai CSMT",
+    "departure_time": "11:05"
+  },
+  {
+    "train_number": "22501",
+    "train_name": "NE SAMPARK KRANTI EXP",
+    "origin_station_code": "NZM",
+    "origin_station_name": "Hazrat Nizamuddin",
+    "departure_time": "22:10"
+  },
+  {
+    "train_number": "22625",
+    "train_name": "MAS SBC DOUBLE DECKER",
+    "origin_station_code": "MAS",
+    "origin_station_name": "MGR Chennai Central",
+    "departure_time": "07:25"
+  },
+  {
+    "train_number": "22626",
+    "train_name": "SBC MAS DOUBLE DECKER",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "13:30"
+  },
+  {
+    "train_number": "22669",
+    "train_name": "MAS COIMBATORE INTERCITY",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "22671",
+    "train_name": "WEST COAST SF EXP",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "18:15"
+  },
+  {
+    "train_number": "22691",
+    "train_name": "SBC RAJDHANI EXPRESS",
+    "origin_station_code": "SBC",
+    "origin_station_name": "KSR Bengaluru",
+    "departure_time": "20:00"
+  },
+  {
+    "train_number": "22692",
+    "train_name": "SBC RAJDHANI EXPRESS",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "20:30"
+  },
+  {
+    "train_number": "22821",
+    "train_name": "SHM RAJDHANI",
+    "origin_station_code": "SHM",
+    "origin_station_name": "Shalimar",
+    "departure_time": "06:45"
+  },
+  {
+    "train_number": "22822",
+    "train_name": "SHM RAJDHANI",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "16:45"
+  },
+  {
+    "train_number": "22879",
+    "train_name": "VANDE BHARAT EXPRESS",
+    "origin_station_code": "HWH",
+    "origin_station_name": "Howrah Jn",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "22883",
+    "train_name": "PURI VANDE BHARAT EXP",
+    "origin_station_code": "PURI",
+    "origin_station_name": "Puri",
+    "departure_time": "06:05"
+  },
+  {
+    "train_number": "22947",
+    "train_name": "SURAT DELHI SF EXP",
+    "origin_station_code": "ST",
+    "origin_station_name": "Surat",
+    "departure_time": "23:10"
+  },
+  {
+    "train_number": "22953",
+    "train_name": "GUJARAT SF EXP",
+    "origin_station_code": "MMCT",
+    "origin_station_name": "Mumbai Central",
+    "departure_time": "10:55"
+  },
+  {
+    "train_number": "22987",
+    "train_name": "AJMER VANDE BHARAT",
+    "origin_station_code": "NDLS",
+    "origin_station_name": "New Delhi",
+    "departure_time": "06:00"
+  },
+  {
+    "train_number": "56381",
+    "train_name": "MAS CBE PASSENGER",
+    "origin_station_code": "MAS",
+    "origin_station_name": "Chennai Central",
+    "departure_time": "06:10"
+  }
+]
