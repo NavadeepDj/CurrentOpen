@@ -32,13 +32,38 @@ async def chart_estimate(req: ChartEstimateRequest) -> ChartEstimateResponse:
     first reservation chart preparation window and current booking opening time.
     """
     # 1. Look up train info
-    train = get_train_info(req.train_number)
+    train = await get_train_info(req.train_number)
     if train is None:
-        raise HTTPException(
-            status_code=404,
-            detail=f"Train '{req.train_number}' not found in the timetable database. "
-                   f"Try searching via /api/trains/search?q={req.train_number}",
-        )
+        # Attempt to dynamically fetch and cache schedule using Gemini search grounding
+        from backend.services.train_lookup import fetch_and_cache_train_from_gemini
+        from pathlib import Path
+
+        train = await fetch_and_cache_train_from_gemini(req.train_number)
+        
+        if train is None:
+            # Log the missing train number for offline analysis or bulk population
+            log_dir = Path(__file__).parent.parent / "data"
+            log_dir.mkdir(parents=True, exist_ok=True)
+            log_file = log_dir / "missing_trains.log"
+            try:
+                # Read existing lines to avoid duplicate entries in the log
+                existing_logged = set()
+                if log_file.exists():
+                    with open(log_file, "r", encoding="utf-8") as lf:
+                        existing_logged = {line.strip() for line in lf if line.strip()}
+                
+                if req.train_number not in existing_logged:
+                    with open(log_file, "a", encoding="utf-8") as lf:
+                        lf.write(f"{req.train_number}\n")
+            except Exception as log_err:
+                print(f"Failed to log missing train {req.train_number}: {log_err}")
+
+            raise HTTPException(
+                status_code=404,
+                detail=f"Train '{req.train_number}' not found in the timetable database. "
+                       f"Timed out or failed to resolve via dynamic lookup. "
+                       f"Please check the train number or try again later.",
+            )
 
     # 2. Validate journey date is not in the past
     today = date.today()
@@ -84,7 +109,7 @@ async def search_trains_endpoint(
     Search for trains by number (prefix) or name (keyword).
     Returns matching train entries from the static dataset.
     """
-    results = search_trains(q, limit=limit)
+    results = await search_trains(q, limit=limit)
     if not results:
         raise HTTPException(
             status_code=404,
@@ -102,7 +127,7 @@ async def get_train(train_number: str) -> TrainSearchResult:
     """
     Get train info for a specific train number.
     """
-    train = get_train_info(train_number)
+    train = await get_train_info(train_number)
     if train is None:
         raise HTTPException(status_code=404, detail=f"Train '{train_number}' not found")
     return TrainSearchResult(
